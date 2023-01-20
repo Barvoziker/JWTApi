@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/username/jwt-api.git`
+1. Clone the repository: `git clone https://github.com/Barvoziker/JWTApi.git`
 2. Navigate to the project directory: `cd jwt-api`
 3. Install the dependencies: `composer install`
 4. Create a `.env` file: `cp .env.example .env`
