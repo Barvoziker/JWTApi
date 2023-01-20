@@ -43,6 +43,5 @@ composer.lock
 /webpack.config.prod.js.map
 
 ###> lexik/jwt-authentication-bundle ###
-/config/jwt/private.pem
-/config/jwt/public.pem
+/config/jwt/*.pem
 ###< lexik/jwt-authentication-bundle ###
