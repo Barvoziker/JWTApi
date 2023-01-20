@@ -1,10 +1,47 @@
+# dependencies
+/vendor/
+/public/*/
+config/packages/
+composer.lock
 
-###> symfony/framework-bundle ###
+# environment-specific files
+.env
+/.env.*.local
+/.env.*.local.php
 /.env.local
 /.env.local.php
-/.env.*.local
-/config/secrets/prod/prod.decrypt.private.php
-/public/bundles/
+/.env.php
+/.env.test
+/.env.test.local
+/.env.test.local.php
+
+# runtime files
 /var/
-/vendor/
-###< symfony/framework-bundle ###
+/var/*/
+/var/cache/
+/var/cache/*/
+/var/log/
+/var/log/*/
+/var/sessions/
+/var/sessions/*/
+/var/tests/
+/var/tests/*/
+/.idea/
+
+# build files
+/.phpunit.result.cache
+/.phpunit.result.cache.html
+/.phpunit.result.cache.serialized
+/.phpunit.result.cache.xml
+/.phpunit.result.cache.tap
+/composer.lock
+/phpunit.xml
+/symfony.lock
+/webpack.config.js
+/webpack.config.js.map
+/webpack.config.prod.js
+/webpack.config.prod.js.map
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
